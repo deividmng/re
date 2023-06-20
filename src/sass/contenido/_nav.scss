@@ -1,0 +1,103 @@
+@import "../base/variables";
+
+
+.logo {
+    float: right; /* Alinea el logo a la derecha */
+    margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+  }
+  
+  .logo img {
+    width: 80px; 
+    border-radius: 50px;
+  }
+
+  .cabezara {
+    width: 100%;
+  }
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modificator{
+    width: 100%;
+    margin: auto;
+}
+
+header{
+background: url(/img/oli.jpg);
+height: 70vh;
+background-position: center;
+background-size: cover;
+}
+
+.franja{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+
+.icon-align-justify {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: wheat;
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    float: left; /* Agrega esta línea para alinear a la izquierda */
+  }
+  
+
+
+
+.lista{
+    list-style: none;
+   
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    background: rgba(242, 252, 245, 0.7);
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 1s;
+
+    &:hover{
+        background: rgba(110, 162, 126, 0.7);
+    }
+
+}
+
+.menu{
+    width: 20%;
+    margin-top: 10px;
+    transition: height .3s linear;
+    z-index: 11;
+    height: 0;
+    overflow: hidden;
+}
+.mostrar {
+    height: 300px;
+}
+
+.titulo {
+    color: white;
+    font-family: $funte_principal;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
